@@ -11,20 +11,29 @@
       <form>
       <div>
       <pre><b>
-      <label>First Name    :  </label><input type="text" value="first name" ><br>
-      <label>Middle Name   :  </label><input type="text" value="middle name"><br>
-      <label>Last Name     :  </label><input type="text" value="last name"><br>
-      <label>Roll No.      :  </label><input type="number"><br>
-      <label>Gender        :  </label>
-      <label>                 </label><input type="radio" id="male" name="gender" value="Male"><label>Male</label>
-      <label>                 </label><input type="radio" id="female" name="gender" value="Female"><label>Female</label>
-      <label>                 </label><input type="radio" id="other" name ="gender" value="Others"><label>Others</label><br>
-      <label>Phone No.     :  </label><input type="text"><br>
-      <label>Email ID      :  </label><input type="email"><br>
-      <label>D.O.B.        :  </label><input type="date"><br>
-      <label>Password      :  </label><input type="password"><br><hr>
+      <label for="fname">First Name     :  </label><input type="text" value="first name" id="fname"><br>
+      <label for="mname">Middle Name    :  </label><input type="text" value="middle name" id="mname"><br>
+      <label for="lname">Last Name      :  </label><input type="text" value="last name" id="lname"><br>
+      <label for="rollno">Roll No.       :  </label><input type="number" id="rollno"><br>
+      <label>Gender         :  </label>
+      <label>                 </label><input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+      <label>                 </label><input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+      <label>                 </label><input type="radio" id="other" name ="gender" value="Others"><label for="other">Others</label><br>
+      <label for="phoneno">Phone No.      :  </label><input type="text" id="phoneno"><br>
+      <label for="email">Email ID       :  </label><input type="email" id="email"><br>
+      <label for="dob">D.O.B.         :  </label><input type="date" id="dob"><br>
+      <label for="pass">Password       :  </label><input type="password" id="pass"><br>
+      <label for="course">Course         :  </label><select name="Course" id="course">
+            <option></option>
+         <option value="btech">B.Tech.</option>
+         <option value="mtech">M.Tech.</option>
+         <option value="bpharma">B.Pharma</option>
+         <option value="mpharma">M.Pharma</option>
+         <option value="bba">BBA</option>
+         <option value="mba">MBA</option>
+      </select><hr>
       <input type="checkbox">I declare all the details I mentioned above are correct as per my knowledge<br>
-      <input type="button" value=" Reset "><input type="submit" align="centre">
+      &emsp;&emsp;&emsp;&emsp;&emsp;<input type="button" value=" Reset ">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" align="centre">
       </b> </pre>
       </div>
       </form>
