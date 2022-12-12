@@ -1,0 +1,49 @@
+div{
+      background-color: lightgrey;
+      margin: auto;
+      display: grid;
+      padding: auto;
+}
+pre{
+      background-color: gray;
+      margin: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-color: black;
+      border-width: 50px;
+      border-radius: 40px;
+}
+
+/* combinators
+>  child
++ immediate sibiling
+~ sibilings */
+
+
+/* atribute selector */
+input[type='submit']
+{
+  background-color: lightcoral;
+}
+
+input[type='button']
+{
+      background-color: lightseagreen;
+}
+
+input[type='submit']:hover
+{
+  background-color: beige;
+}
+input[type='button']:hover{
+      background-color: beige;
+}
+
+/* pseudo class
+
+tag:first-child
+tag:last-child
+tag:nth-child(5)
+tag:nth-child(odd) */
